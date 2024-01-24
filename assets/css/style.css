@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    animation: ramazon 5s infinite linear;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+@keyframes ramazon {
+    0%
+    {
+        transform: rotate(90deg);
+        background-color: aqua;
+    }
+    50%
+    {
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(360deg);
+        background-color: red;
+    }
+    100%
+    {
+        transform: rotate(0deg);
+        border-radius: 0;
+        background-color: green;
+    }
+}
+/* .box
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    animation-name: ramazon;
+    animation: ramazon 5s infinite;
+}
+@keyframes ramazon {
+    0%
+    {
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        top: 0px;
+        left: 1320px;
+        background-color: blue;
+    }
+    from
+    {
+        background-color: red;
+    }
+    to
+    {
+        background-color: blue;
+    }
+} */
